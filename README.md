@@ -1,4 +1,4 @@
-# FIT4012 - Lab 01
+# FIT4012 - Lab 0
 ## CIA & Risk: Hệ thống lưu điểm
 
 Starter repo này được dùng cho bài lab mở đầu của học phần **FIT4012 - Nhập môn An toàn Bảo mật Thông tin**.
