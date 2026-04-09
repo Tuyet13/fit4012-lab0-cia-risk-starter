@@ -1,48 +1,31 @@
-# Lab 01 Answers
-## CIA & Risk: Hệ thống lưu điểm
-
-**Họ và tên:** ........................................
-
-**MSSV:** .............................................
-
-**Lớp/Nhóm:** .........................................
-
----
+Họ và tên: Phạm Ánh Tuyết
+MSSV: 1871020643
+Lớp/Nhóm: CNTT 18-02
 
 ## 1. Assets
-Liệt kê ít nhất 2 assets cần bảo vệ.
-
-- Asset 1:
-- Asset 2:
-- Asset 3 (nếu có):
-
----
+Asset 1: Student grades (dữ liệu điểm)
+Asset 2: Student accounts (tài khoản sinh viên)
 
 ## 2. Mapping CIA
-Ghép từng sự cố với CIA.
-
-- Sự cố A ->
-- Sự cố B ->
-- Sự cố C ->
-
----
+Sự cố A -> Availability
+Sự cố B -> Integrity
+Sự cố C -> Confidentiality
 
 ## 3. Phân tích sự cố B
-- Threat:
-- Vulnerability:
-- Mitigation:
+Threat: Unauthorized user thay đổi điểm trái phép
 
----
+Vulnerability:
+- Mật khẩu yếu
+- Không phân quyền rõ
+- Không có log
+
+Mitigation:
+- MFA
+- RBAC
+- Logging
 
 ## 4. Reflection
-Viết 5-7 dòng.
-
-
-
----
+I would prioritize integrity because incorrect grades directly affect students and reduce trust in the system.
 
 ## 5. Bonus Flag
-`FIT4012{A-?-B-?-C-?}`
-
-Flag của em:
-
+FIT4012{A-A-B-I-C-C}
